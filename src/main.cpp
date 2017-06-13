@@ -15,8 +15,6 @@ int main() {
     std::vector<size_t> test_sizes= {1,2,10,20};
 
     for (auto N : test_sizes) {
-
-
         std::vector<int> vec;
         random_vector(vec, N);
 
