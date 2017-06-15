@@ -3,6 +3,7 @@
 //
 
 #include <vector>
+#include <limits.h>
 
 #include "Sort.h"
 #include "CountingSort.h"
