@@ -11,20 +11,19 @@
 
 #include "Sort.h"
 
-template <typename T>
-class MergeSort: public Sort<T> {
+template<typename T>
+class MergeSort : public Sort<T> {
 
-private:
-    void mergeSort(int l, int r);
+ private:
+  void mergeSort(int l, int r);
 
-    void merge(int l, int m, int r);
+  void merge(int l, int m, int r);
 
-public:
-    MergeSort(std::vector<T> vec): Sort<T>(vec) {sort();};
+ public:
+  MergeSort(std::vector<T> vec) : Sort<T>(vec) { sort(); };
 
-    virtual std::vector<T> sort();
+  virtual std::vector<T> sort();
 
 };
-
 
 #endif //SORTINGMINIPROJECT_MERGESORT_H
